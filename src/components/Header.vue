@@ -1,6 +1,6 @@
 <template>
-    <div class="header col-start-1 col-end-5">
-        Header
+    <div class="header col-start-1 col-end-5 p-2.5">
+        [OCR]
     </div>
     
 </template>
