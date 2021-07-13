@@ -1,15 +1,42 @@
 <template>
-    <div class="header col-start-1 col-end-5 p-2.5">
-        [OCR]
+    <div class="header col-start-1 col-end-5 pt-2.5 flex justify-between items-center text-gray-600">
+        <!-- Page title -->
+        <div class="flex text-2xl font-extrabold w-sm text-black">
+            [OCR]
+        </div>
+        <!-- Pages -->
+        <div class="hidden md:flex space-x-8 text-sm font-medium ml-8">
+            <a href="#" class="hover:underline">
+                <strong>Dashboard</strong>
+            </a>
+            <a href="#" class="hover:underline">
+                About
+            </a>
+            <a href="#" class="hover:underline">
+                Contact
+            </a>
+        </div>
+        <!-- Languages -->
+        <div class="hidden md:flex space-x-2 text-sm w-sm font-medium">
+            <a href="#" class="hover:underline">
+                <strong>EN </strong>
+            </a>&nbsp;\
+             <a href="#" class="hover:underline">
+                DE 
+            </a>&nbsp;\
+            <a href="#" class="hover:underline">
+                FR 
+            </a>&nbsp;\
+            <a href="#" class="hover:underline">
+                IT
+            </a>
+        </div>
+        <!-- Hamburger button (mobile) -->
+        <div class="md:hidden flex items-center">
+            <button>
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
     </div>
-    
 </template>
-
-<script>
-
-</script>
-
-<style scoped>
-
-</style>
 
