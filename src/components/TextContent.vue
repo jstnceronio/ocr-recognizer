@@ -1,9 +1,9 @@
 <template>
-    <div class="content-text row-start-2 row-span-2 col-start-1 col-span-2 bg-gray-100 p-5">
+    <div class="content-text row-start-2 row-span-2 col-start-1 col-span-2 bg-gray-100 p-24">
         <div class="top text-gray-600 text-md my-4">
             <p>* 100 % free</p>
         </div>
-        <div class="main-text text-gray-900 text-5xl md:text-6xl lg:text-8xl tracking-wide">
+        <div class="main-text text-gray-900 text-5xl md:text-6xl lg:text-header tracking-wide">
             <h1>Image Text Recognition</h1>
         </div>
         <div class="sub-text text-gray-600 text-md my-8">

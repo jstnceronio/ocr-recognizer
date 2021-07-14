@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container grid grid-cols-4 grid-rows-4 gap-y-7">
+  <div class="container grid grid-cols-4 grid-rows-4 gap-y-10">
     <Header />
     <TextContent />
     <UploadContent />
