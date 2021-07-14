@@ -33,10 +33,29 @@
         </div>
         <!-- Hamburger button (mobile) -->
         <div class="md:hidden flex items-center">
-            <button>
+            <button class="mobile-menu-button" @click="toggleButton()">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
+
+        <!-- Mobile menu -->
+        <div class="mobile-menu hidden flex">
+            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Dashboard</a>
+            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">About</a>
+            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Contact</a>
+        </div>
+
     </div>
 </template>
 
+<script>
+export default {
+    name: 'Header',
+    methods: {
+        toggleButton() {
+            const menu = document.querySelector('.mobile-menu');
+            menu.classList.toggle("hidden");
+        }
+    }
+}
+</script>
